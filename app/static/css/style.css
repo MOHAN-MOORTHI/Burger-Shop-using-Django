@@ -1,0 +1,151 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    position: relative;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    color: rgb(241, 35, 35) !important;
+    box-shadow: 0px 2px 7px rgba(231, 102, 102, 0.445);
+}
+
+.bg-hero{
+    background-image: linear-gradient(rgba(49, 47, 47, 0.7),rgba(34, 33, 33, 0.7)),url("/media/burger.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    width: auto;
+    color: #f7f7f7;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-weight: 25px;
+}
+
+#about{
+    height: fit-content;
+    width: 100%;
+    color:black;
+    background-color: #fcfcfc;
+}
+
+#item{
+    height: fit-content;
+    background-color: #e9e5e5;
+    color: black;
+}
+
+.adv{
+    height: 420px !important;
+    width: 100%;
+    background-image: linear-gradient(to right top, #1b1b1b, #1a1a1a, #1a1a1a, #191919, #191919, #1b1b1b, #1c1c1c, #1e1e1e, #222222, #262626, #2a2a2b, #2e2e2f);
+    color: #f7f7f7;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.advowl{
+    height: 80%;
+    width: 70%;
+    position: absolute;
+}
+.advimg{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align:center;
+}
+
+#service{
+    height: fit-content;
+    background-color: #f7f7f7;
+    color:black;
+}
+
+#contact{
+    height: fit-content;
+    background-color: #e9e5e5;
+    color: black;
+}
+
+.nav-pills.nav-item.active{
+    background-color: rgba(248, 33, 33, 0.904) !important;
+    color: #f7f7f7 !important;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(241, 35, 35);
+    box-shadow: 0px 2px 7px rgba(231, 102, 102, 0.445);
+    width: 100%;
+    height: fit-content;
+}
+.fad{
+    opacity: 0;
+    transition: all 2s ease-in;
+}
+
+.fade-in{
+    opacity: 1;
+}
+
+.form-control:hover{
+    border: 3px solid rgb(241, 35, 35) !important;
+}
+
+#shover:hover{
+    background-color: rgb(241, 35, 35) !important;
+    color: #f7f7f7 !important;
+}
+
+#shover:hover h1{
+    color: #f7f7f7 !important;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.icon{
+    border: 2px solid rgba(248, 33, 33, 0.904);
+    border-radius: 50%;
+    padding: 7px;
+    background-color: rgba(248, 33, 33, 0.904);
+    color: #fcfcfc;
+}
+
+.item-menu{
+    width: 100%;
+    height: fit-content;
+}
+
+.item-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#chover:hover{
+    box-shadow: 0px 2px 7px rgb(240, 47, 47);
+}
+.btnback{
+    display: flex;
+    justify-content: center;
+}
